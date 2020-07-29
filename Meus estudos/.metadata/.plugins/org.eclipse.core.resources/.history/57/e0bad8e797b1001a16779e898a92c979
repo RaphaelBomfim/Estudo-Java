@@ -1,0 +1,13 @@
+package primeiro;
+
+import java.util.Scanner;
+
+public class Console {
+public static void main(String[] args) {
+	 
+	int b = 1000;
+	System.out.println(b);
+
+	
+}
+}

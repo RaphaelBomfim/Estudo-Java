@@ -1,0 +1,23 @@
+package primeiro;
+
+public class stringgggg {
+
+	public static void main(String[] args) {
+		
+		System.out.println("bom dia");
+		
+		
+		
+		String nome = "Raphel";
+		String sobrenome = "Barbosa Bomfim";
+		int idade = 33;
+		double salario = 3300.7889;
+		
+		System.out.printf("nome é %s %s tem %s e seu salario é R$%s ", nome, sobrenome, idade, salario);
+		  
+		
+		String nomee = "pp";
+	}
+	
+}
+ 

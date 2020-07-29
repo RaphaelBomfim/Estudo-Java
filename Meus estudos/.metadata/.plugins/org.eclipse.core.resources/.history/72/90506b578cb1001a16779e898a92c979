@@ -1,0 +1,18 @@
+package primeiro;
+
+import java.util.Scanner;
+
+public class Console {
+public static void main(String[] args) {
+	 
+	
+	Scanner entrada = new Scanner(System.in);
+	
+	
+	int nub1 = entrada.nextInt();
+	int nub2 = entrada.nextInt();
+	
+	System.out.println("digite um numero:");
+	
+}
+}

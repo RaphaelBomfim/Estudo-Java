@@ -1,0 +1,55 @@
+package Classe;
+
+import java.util.Scanner;
+
+public class ProdutoTeste {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		Produto p1 = new Produto();
+		
+		p1.nome = "notebook";
+		p1.preco = 2800;
+		p1.desconto = 0.15;
+		
+		
+		Produto p2 = new Produto();
+		
+		p2.nome = "Iphone 7";
+		p2.preco = 2500;
+		p2.desconto = 0.10;
+		
+		double DescontoP2 = p2.preco * p2.desconto;
+		double DescontoP1 = p1.preco * p1.desconto;		
+		String pesquisa;
+		
+		do {
+			
+		
+			System.out.println("\nPesquise seu desconto nos produtos notebook ou celular, basta escrever qual deseja!");
+			System.out.println("digite (sair) para finalizar o programa!\n");
+		pesquisa = entrada.next();
+		
+		
+		if (pesquisa.equalsIgnoreCase("notebook")) {
+			System.out.println("seu desconto é de: " + p1.PrecoComDesconto(p1.preco, p1.desconto));
+					
+		} else if (pesquisa.equalsIgnoreCase("celular")) {
+			System.out.println("\nseu desconto é de: " + DescontoP2);
+			
+		} else if (pesquisa != "sair") {
+			System.out.println("nome invalido");
+	
+		}
+		
+				
+	}	while (!pesquisa.equalsIgnoreCase("Sair"));
+		System.out.println("Obrigado!");
+		entrada.close();
+		
+	}
+	
+	
+}

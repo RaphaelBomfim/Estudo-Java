@@ -1,0 +1,30 @@
+package DesafioModulo3;
+
+public class Pessoa {
+
+	String nome;
+	Double peso;
+	
+	Pessoa(){
+		
+	}
+	
+	Pessoa(String nome, double peso){
+		this.nome = nome;
+		this.peso = peso;
+	}
+	
+	
+	
+	int comer(Comida Comida) {
+		 if(Comida != null) {
+			this.peso += Comida.pesoComida;
+			
+		}
+		return 0;
+		
+		
+		
+	}
+	
+}

@@ -1,0 +1,23 @@
+package primeiro;
+
+import java.util.Scanner;
+
+public class Console {
+public static void main(String[] args) {
+	 
+	
+	Scanner entrada = new Scanner(System.in);
+	
+	String nome;
+	int idade;
+	String end;
+	String email;
+	String nacionalidade;
+	String civil;
+	
+	
+	System.out.println("Escreve seu nome completo: " + nome);
+	entrada.nextline(nome);
+	
+}
+}

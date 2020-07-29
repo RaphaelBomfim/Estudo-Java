@@ -1,0 +1,29 @@
+package primeiro;
+
+import java.util.Scanner;
+
+public class Console {
+public static void main(String[] args) {
+	
+	Scanner entrada = new Scanner(System.in); 
+	
+	System.out.println("Digite o Primeiro salario: ");
+	String salario1 = entrada.next();
+	System.out.println("\n\no primeiro salario é: " + salario1);
+	
+	System.out.println("Digite o segundo salario: ");
+	String salario2 = entrada.next();
+	System.out.println("o segundo salario é: " + salario2);
+
+	System.out.println("Digite o terceiro salario: ");
+	String salario3 = entrada.next();
+	System.out.println("o terceiro salario é: " + salario3);
+	
+	
+	
+	
+	
+	
+	
+}
+}

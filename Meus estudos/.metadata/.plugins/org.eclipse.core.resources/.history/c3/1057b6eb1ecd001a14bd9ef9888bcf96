@@ -1,0 +1,18 @@
+package DesafioModulo3;
+
+public class Jantar {
+public static void main(String[] args) {
+	
+	Pessoa p1 = new Pessoa("Raphael", 94.5);
+	Pessoa p2 = new Pessoa("Natalha", 65.4);
+	
+	Comida c1 = new Comida("Feijão", 0.300);
+	Comida c2 = new Comida("Arroz", 0.400);
+	Comida c3 = new Comida("Carne", 0.200);
+	
+	System.out.println(p1.comer());
+	
+	
+	
+}	
+}

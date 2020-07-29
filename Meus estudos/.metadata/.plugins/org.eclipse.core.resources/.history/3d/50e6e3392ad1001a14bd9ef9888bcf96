@@ -1,0 +1,30 @@
+package DesafioModulo3;
+
+import java.util.Scanner;
+
+public class Jantar {
+public static void main(String[] args) {
+	Scanner entrada = new Scanner(System.in);
+	
+	Pessoa p1 = new Pessoa("Raphael", 94.5);
+	Pessoa p2 = new Pessoa("Natalha", 65.4);
+	
+	Comida c1 = new Comida("Feijão", 0.300);
+	Comida c2 = new Comida("Arroz", 0.400);
+	Comida c3 = new Comida("Carne", 0.200);
+	String pesquisa;
+	
+ String pp = "s";
+ 
+	do { 
+		System.out.println("entrou uma vez");
+	
+	
+	}
+	while (pp.equals("s")); {
+		System.out.println("Entrou no while ");
+		pp ="n";
+	
+	}	
+}	
+}

@@ -1,0 +1,2 @@
+ case "preta":
+        	System.out.println("sei o ");

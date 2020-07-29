@@ -1,0 +1,17 @@
+package Classe;
+
+public class Data {
+
+	String dia;
+	String mes;
+	String ano;
+	
+	
+	
+	String DataFormatada () {
+		
+		return String.format(arg0, arg1)
+		
+	}
+	
+}

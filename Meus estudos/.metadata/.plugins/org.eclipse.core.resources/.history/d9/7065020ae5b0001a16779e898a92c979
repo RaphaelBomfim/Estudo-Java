@@ -1,0 +1,15 @@
+package primeiro;
+
+public class stringgggg {
+
+	public static void main(String[] args) {
+		
+		System.out.println("bom dia");
+		
+		
+		
+		String nome = "raphel";
+		System.out.println(nome);
+	}
+	
+}

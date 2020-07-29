@@ -1,0 +1,21 @@
+package primeiro;
+
+import java.util.Scanner;
+
+public class Console {
+public static void main(String[] args) {
+	
+	Scanner entrada = new Scanner(System.in); 
+	
+	System.out.println("Digite o Primeiro salario: ");
+	String salario1 = entrada.next();
+	System.out.println("o primeiro salario é: " + salario1);
+	String salario2 = entrada.nextLine();
+	String salario3 = entrada.nextLine();
+	
+	
+	
+	
+	
+}
+}
